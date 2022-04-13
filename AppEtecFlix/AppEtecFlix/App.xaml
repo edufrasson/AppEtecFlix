@@ -3,6 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            
+            <Style TargetType="Button" x:Name="buttonCategoria">
+                <Setter Property="BackgroundColor" Value="#ff8906"/>
+                <Setter Property="Padding" Value="30"/>
+            </Style>
+            
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

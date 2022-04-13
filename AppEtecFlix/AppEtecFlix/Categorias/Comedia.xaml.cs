@@ -10,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace AppEtecFlix.Categorias
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Acao : ContentPage
+    public partial class Comedia : ContentPage
     {
-        public Acao()
+        public Comedia()
         {
             InitializeComponent();
-
             NavigationPage.SetHasNavigationBar(this, false);
         }
     }

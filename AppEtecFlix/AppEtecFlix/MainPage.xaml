@@ -3,68 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.MainPage">
 
-    <Grid RowDefinitions="*, *, *, *, *, *"
-          ColumnDefinitions="*, *"
-                    
-    >
-        <Button
-            x:Name="btnAventura"
-            Text="Aventura"
-            Grid.Row="1"
-            Grid.Column="0"            
-        />
+    <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
+        <StackLayout HeightRequest="100">
+        </StackLayout>
 
-        <Button
-            x:Name="btnAcao"
-            Text="Ação"
-            Grid.Row="1"
-            Grid.Column="1"           
-        />
+        <Image x:Name="logo"/>
 
-        <Button
-            x:Name="btnComedia"
-            Text="Comédia"
-            Grid.Row="2"
-            Grid.Column="0"           
-        />
-
-        <Button
-            x:Name="btnRomance"
-            Text="Romance"
-            Grid.Row="2"
-            Grid.Column="1"           
-        />
-
-        <Button
-            x:Name="btnScifi"
-            Text="Ficção Científica"
-            Grid.Row="3"
-            Grid.Column="0"           
-        />
-
-        <Button
-            x:Name="btnDrama"
-            Text="Drama"
-            Grid.Row="3"
-            Grid.Column="1"           
-        />
         
-        <Button
-            x:Name="btnTerror"
-            Text="Terror"
-            Grid.Row="4"
-            Grid.Column="0"           
-        />
-
-        <Button
-            x:Name="btnBiografia"
-            Text="Biografia"
-            Grid.Row="4"
-            Grid.Column="1"           
-        />
-
-
-    </Grid>
-    
+            <Grid RowDefinitions="*, *, *, *, *, *"
+                  ColumnDefinitions="*, *"
+                  Padding="10"
+             >
+                <Button x:Name="btnAventura" Text="Aventura" Grid.Row="1" Grid.Column="0" Clicked="btnAventura_Clicked"/>
+                <Button x:Name="btnAcao" Text="Ação" Grid.Row="1" Grid.Column="1" Clicked="btnAcao_Clicked"/>
+                <Button x:Name="btnComedia" Text="Comédia" Grid.Row="2" Grid.Column="0" Clicked="btnComedia_Clicked"/>
+                <Button x:Name="btnRomance" Text="Romance" Grid.Row="2" Grid.Column="1" Clicked="btnRomance_Clicked"/>
+                <Button x:Name="btnScifi" Text="Sci-fi" Grid.Row="3" Grid.Column="0" Clicked="btnScifi_Clicked"/>
+                <Button x:Name="btnDrama" Text="Drama" Grid.Row="3" Grid.Column="1" Clicked="btnDrama_Clicked"/>
+                <Button x:Name="btnTerror" Text="Terror" Grid.Row="4" Grid.Column="0" Clicked="btnTerror_Clicked"/>
+                <Button x:Name="btnBiografia" Text="Biografia" Grid.Row="4" Grid.Column="1" Clicked="btnBiografia_Clicked"/>
+            </Grid>
+        
+    </StackLayout>
 
 </ContentPage>
