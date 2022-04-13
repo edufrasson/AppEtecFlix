@@ -12,9 +12,7 @@ namespace AppEtecFlix
     {
         public MainPage()
         {
-            InitializeComponent();
-
-            btnBatman.Source = ImageSource.FromResource("AppEtecFlix.Posters.batman.png");
+            InitializeComponent();            
         }
 
         private void btnBatman_Clicked(object sender, EventArgs e)
