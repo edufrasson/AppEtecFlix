@@ -12,19 +12,48 @@
 
   <ItemGroup>
     <Compile Remove="NovaPasta1\**" />
-    <Compile Remove="NovaPasta\**" />
     <EmbeddedResource Remove="NovaPasta1\**" />
-    <EmbeddedResource Remove="NovaPasta\**" />
     <None Remove="NovaPasta1\**" />
-    <None Remove="NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Img\Filmes_Acao\anonimo.jpg" />
+    <None Remove="Img\Filmes_Acao\blackout.jpg" />
+    <None Remove="Img\Filmes_Acao\bloodshot.jpg" />
+    <None Remove="Img\Filmes_Acao\django.jpg" />
+    <None Remove="Img\Filmes_Acao\infiltrado.jpg" />
+    <None Remove="Img\Filmes_Acao\mate_morra.jpg" />
+    <None Remove="Img\Filmes_Acao\matrix.jpg" />
+    <None Remove="Img\Filmes_Acao\resident_evil.jpg" />
     <None Remove="Img\logo_etecflix.png" />
     <None Remove="Posters\batman.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Img\Filmes_Acao\anonimo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Acao\blackout.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Acao\bloodshot.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Acao\django.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Acao\infiltrado.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Acao\mate_morra.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Acao\matrix.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Acao\resident_evil.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Img\logo_etecflix.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -63,5 +92,14 @@
     <EmbeddedResource Update="Categorias\Terror.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Filmes\Filmes_Acao\" />
+    <Folder Include="Filmes\Filmes_Comedia\" />
+    <Folder Include="Filmes\Filmes_Aventura\" />
+    <Folder Include="Filmes\Filmes_Terror\" />
+    <Folder Include="Filmes\Filmes_Biografia\" />
+    <Folder Include="Filmes\Filmes_Scifi\" />
   </ItemGroup>
 </Project>

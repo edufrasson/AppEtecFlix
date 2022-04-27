@@ -4,9 +4,25 @@
              x:Class="AppEtecFlix.Categorias.Acao">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Filmes de ação"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout>
+                <Label Text="Filmes de Ação"/>
+            </StackLayout>
+            <ScrollView>
+                <Grid RowDefinitions="300, 300, 300, 300, 300, 300"
+                      ColumnDefinitions="*, *"
+                      Padding="5"
+                 >
+
+                    <ImageButton x:Name="btnInfiltrado"  Grid.Row="0" Grid.Column="0" Clicked="btnInfiltrado_Clicked"/>
+                    <ImageButton x:Name="btnAnonimo" Grid.Row="0" Grid.Column="1" Clicked="btnAnonimo_Clicked"/>
+                    <ImageButton x:Name="btnMateMorra"  Grid.Row="1" Grid.Column="0" Clicked="btnMateMorra_Clicked"/>
+                    <ImageButton x:Name="btnBloodshot"  Grid.Row="1" Grid.Column="1" Clicked="btnBloodshot_Clicked"/>
+                    <ImageButton x:Name="btnResidentEvil"  Grid.Row="2" Grid.Column="0" Clicked="btnResidentEvil_Clicked"/>
+                    <ImageButton x:Name="btnBlackout" Grid.Row="2" Grid.Column="1" Clicked="btnBlackout_Clicked"/>
+                    <ImageButton x:Name="btnMatrix"  Grid.Row="3" Grid.Column="0" Clicked="btnMatrix_Clicked"/>
+                    <ImageButton x:Name="btnDjango"  Grid.Row="3" Grid.Column="1" Clicked="btnDjango_Clicked"/>
+                </Grid>
+            </ScrollView>    
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,12 +4,21 @@
              x:Class="AppEtecFlix.App">
     <Application.Resources>
         <ResourceDictionary>
-            
-            <Style TargetType="Button" x:Name="buttonCategoria">
+
+            <Style x:Name="buttonCategoria" TargetType="Button" >
                 <Setter Property="BackgroundColor" Value="#ff8906"/>
                 <Setter Property="Padding" Value="30"/>
             </Style>
-            
+
+            <Style TargetType="ImageButton">
+                <Setter Property="Aspect" Value="Fill" />
+            </Style>
+
+            <Style x:Name="labelTitulo" TargetType="Label">
+                <Setter Property="FontSize" Value="50"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>
