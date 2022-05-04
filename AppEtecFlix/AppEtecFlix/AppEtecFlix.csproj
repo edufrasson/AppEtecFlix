@@ -25,6 +25,18 @@
     <None Remove="Img\Filmes_Acao\mate_morra.jpg" />
     <None Remove="Img\Filmes_Acao\matrix.jpg" />
     <None Remove="Img\Filmes_Acao\resident_evil.jpg" />
+    <None Remove="Img\Filmes_Aventura\batman.jpg" />
+    <None Remove="Img\Filmes_Aventura\duna.jpg" />
+    <None Remove="Img\Filmes_Aventura\eternos.jpg" />
+    <None Remove="Img\Filmes_Aventura\freeguy.jpeg" />
+    <None Remove="Img\Filmes_Aventura\moonfall.jpg" />
+    <None Remove="Img\Filmes_Aventura\projeto_adam.jpg" />
+    <None Remove="Img\Filmes_Aventura\uncharted.jpg" />
+    <None Remove="Img\Filmes_Aventura\viuva_negra.jpg" />
+    <None Remove="Img\logo_acao.png" />
+    <None Remove="Img\logo_aventura.png" />
+    <None Remove="Img\logo_biografia.png" />
+    <None Remove="Img\logo_comedia.png" />
     <None Remove="Img\logo_etecflix.png" />
     <None Remove="Posters\batman.png" />
   </ItemGroup>
@@ -52,6 +64,42 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Img\Filmes_Acao\resident_evil.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Aventura\batman.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Aventura\duna.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Aventura\eternos.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Aventura\freeguy.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Aventura\moonfall.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Aventura\projeto_adam.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Aventura\uncharted.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Aventura\viuva_negra.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_acao.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_aventura.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_biografia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_comedia.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Img\logo_etecflix.png">

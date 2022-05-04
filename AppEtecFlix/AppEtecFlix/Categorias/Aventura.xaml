@@ -3,10 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Categorias.Aventura">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
+
+            <ScrollView>
+                <Grid RowDefinitions="100, 300, 300, 300, 300, 300"
+                      ColumnDefinitions="*, *"
+                      Padding="5"
+                 >                
+                    <Image HorizontalOptions="Center" x:Name="logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                    
+                    <ImageButton x:Name="btnUncharted"  Grid.Row="1" Grid.Column="0" Clicked="btnUncharted_Clicked"/>
+                    <ImageButton x:Name="btnMoonfall" Grid.Row="1" Grid.Column="1" Clicked="btnMoonfall_Clicked"/>
+                    <ImageButton x:Name="btnBatman"  Grid.Row="2" Grid.Column="0" Clicked="btnBatman_Clicked"/>
+                    <ImageButton x:Name="btnProjetoAdam"  Grid.Row="2" Grid.Column="1" Clicked="btnProjetoAdam_Clicked"/>
+                    <ImageButton x:Name="btnFreeGuy"  Grid.Row="3" Grid.Column="0" Clicked="btnFreeGuy_Clicked"/>
+                    <ImageButton x:Name="btnEternos" Grid.Row="3" Grid.Column="1" Clicked="btnEternos_Clicked"/>
+                    <ImageButton x:Name="btnViuvaNegra"  Grid.Row="4" Grid.Column="0" Clicked="btnViuvaNegra_Clicked"/>
+                    <ImageButton x:Name="btnDuna"  Grid.Row="4" Grid.Column="1" Clicked="btnDuna_Clicked"/>
+                </Grid>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

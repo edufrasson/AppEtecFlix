@@ -18,6 +18,8 @@ namespace AppEtecFlix.Categorias
 
             NavigationPage.SetHasNavigationBar(this, false);
 
+            logo.Source = ImageSource.FromResource("AppEtecFlix.Img.logo_acao.png");
+
             btnInfiltrado.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Acao.infiltrado.jpg");
             btnAnonimo.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Acao.anonimo.jpg");
             btnMateMorra.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Acao.mate_morra.jpg");

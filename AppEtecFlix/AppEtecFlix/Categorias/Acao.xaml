@@ -3,16 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Categorias.Acao">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
            
             <ScrollView>
                 <Grid RowDefinitions="100, 300, 300, 300, 300, 300"
                       ColumnDefinitions="*, *"
                       Padding="5"
                  >
-                    <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
-                        <Label Text="Filmes de Ação"/>
-                    </StackLayout>
+                    <Image HorizontalOptions="Center" x:Name="logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
                     <ImageButton x:Name="btnInfiltrado"  Grid.Row="1" Grid.Column="0" Clicked="btnInfiltrado_Clicked"/>
                     <ImageButton x:Name="btnAnonimo" Grid.Row="1" Grid.Column="1" Clicked="btnAnonimo_Clicked"/>
                     <ImageButton x:Name="btnMateMorra"  Grid.Row="2" Grid.Column="0" Clicked="btnMateMorra_Clicked"/>
