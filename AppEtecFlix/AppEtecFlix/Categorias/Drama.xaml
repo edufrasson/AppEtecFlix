@@ -3,10 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Categorias.Drama">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
+
+            <ScrollView>
+                <Grid RowDefinitions="100, 300, 300, 300, 300, 300"
+                      ColumnDefinitions="*, *"
+                      Padding="5"
+                 >
+                    <Image HorizontalOptions="Center" x:Name="logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                    <ImageButton x:Name="btnRocky1"  Grid.Row="1" Grid.Column="0" Clicked="btnRocky1_Clicked"/>
+                    <ImageButton x:Name="btnRocky2" Grid.Row="1" Grid.Column="1" Clicked="btnRocky2_Clicked"/>
+                    <ImageButton x:Name="btnRocky3"  Grid.Row="2" Grid.Column="0" Clicked="btnRocky3_Clicked"/>
+                    <ImageButton x:Name="btnRocky4"  Grid.Row="2" Grid.Column="1" Clicked="btnRocky4_Clicked"/>
+                    <ImageButton x:Name="btnRocky5"  Grid.Row="3" Grid.Column="0" Clicked="btnRocky5_Clicked"/>
+                    <ImageButton x:Name="btnRocky6" Grid.Row="3" Grid.Column="1" Clicked="btnRocky6_Clicked"/>
+                    <ImageButton x:Name="btnCreed"  Grid.Row="4" Grid.Column="0" Clicked="btnCreed_Clicked"/>
+                    <ImageButton x:Name="btnCreed2"  Grid.Row="4" Grid.Column="1" Clicked="btnCreed2_Clicked"/>
+                </Grid>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

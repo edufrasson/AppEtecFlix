@@ -3,10 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Categorias.Terror">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
+
+            <ScrollView>
+                <Grid RowDefinitions="100, 300, 300, 300, 300, 300"
+                      ColumnDefinitions="*, *"
+                      Padding="5"
+                 >
+                    <Image HorizontalOptions="Center" x:Name="logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                    <ImageButton x:Name="btnMal1"  Grid.Row="1" Grid.Column="0" Clicked="btnMal1_Clicked"/>
+                    <ImageButton x:Name="btnMal2" Grid.Row="1" Grid.Column="1" Clicked="btnMal2_Clicked"/>
+                    <ImageButton x:Name="btnMal3"  Grid.Row="2" Grid.Column="0" Clicked="btnMal3_Clicked"/>
+                    <ImageButton x:Name="btnFreira"  Grid.Row="2" Grid.Column="1" Clicked="btnFreira_Clicked"/>
+                    <ImageButton x:Name="btnIt"  Grid.Row="3" Grid.Column="0" Clicked="btnIt_Clicked"/>
+                    <ImageButton x:Name="btnIt2" Grid.Row="3" Grid.Column="1" Clicked="btnIt2_Clicked"/>
+                    <ImageButton x:Name="btnPanico"  Grid.Row="4" Grid.Column="0" Clicked="btnPanico_Clicked"/>
+                    
+                </Grid>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

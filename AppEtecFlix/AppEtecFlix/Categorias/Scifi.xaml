@@ -3,10 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Categorias.Scifi">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
+
+            <ScrollView>
+                <Grid RowDefinitions="100, 300, 300, 300, 300, 300"
+                      ColumnDefinitions="*, *"
+                      Padding="5"
+                 >
+                    <Image HorizontalOptions="Center" x:Name="logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                    
+                    <ImageButton x:Name="btnAmeacaFantasma" Grid.Row="1" Grid.Column="0" Clicked="btnAmeacaFantasma_Clicked"/>
+                    <ImageButton x:Name="btnAtaqueClones"  Grid.Row="1" Grid.Column="1" Clicked="btnAtaqueClones_Clicked"/>
+                    <ImageButton x:Name="btnDespertarForca"  Grid.Row="2" Grid.Column="0" Clicked="btnDespertarForca_Clicked"/>
+                    <ImageButton x:Name="btnImperioContra"  Grid.Row="2" Grid.Column="1" Clicked="btnImperioContra_Clicked"/>
+                    <ImageButton x:Name="btnInterstelar" Grid.Row="3" Grid.Column="0" Clicked="btnInterstelar_Clicked"/>
+                    <ImageButton x:Name="btnNovaEsperanca"  Grid.Row="3" Grid.Column="1" Clicked="btnNovaEsperanca_Clicked"/>
+                    <ImageButton x:Name="btnRetornoJedi"  Grid.Row="4" Grid.Column="0" Clicked="btnRetornoJedi_Clicked"/>
+                </Grid>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

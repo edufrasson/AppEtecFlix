@@ -3,10 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Categorias.Biografia">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
+
+            <ScrollView>
+                <Grid RowDefinitions="100, 300, 300, 300, 300, 300"
+                      ColumnDefinitions="*, *"
+                      Padding="5"
+                 >
+                    <Image HorizontalOptions="Center" x:Name="logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                    <ImageButton x:Name="btnBohemian"  Grid.Row="1" Grid.Column="0" Clicked="btnBohemian_Clicked"/>
+                    <ImageButton x:Name="btnRede" Grid.Row="1" Grid.Column="1" Clicked="btnRede_Clicked"/>
+                    <ImageButton x:Name="btnWallstreet"  Grid.Row="2" Grid.Column="0" Clicked="btnWallstreet_Clicked"/>
+                    <ImageButton x:Name="btnJobs"  Grid.Row="2" Grid.Column="1" Clicked="btnJobs_Clicked"/>
+                    <ImageButton x:Name="btnMente"  Grid.Row="3" Grid.Column="0" Clicked="btnMente_Clicked"/>
+                    <ImageButton x:Name="btnImitacao" Grid.Row="3" Grid.Column="1" Clicked="btnImitacao_Clicked"/>
+                   
+                </Grid>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -17,6 +17,8 @@ namespace AppEtecFlix
             NavigationPage.SetHasNavigationBar(this, false);
 
             logo.Source = ImageSource.FromResource("AppEtecFlix.Img.logo_etecflix.png");
+
+            
         }       
 
         private void btnAventura_Clicked(object sender, EventArgs e)

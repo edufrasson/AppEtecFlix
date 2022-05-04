@@ -3,10 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Categorias.Romance">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
+
+            <ScrollView>
+                <Grid RowDefinitions="100, 300, 300, 300, 300, 300"
+                      ColumnDefinitions="*, *"
+                      Padding="5"
+                 >
+                    <Image HorizontalOptions="Center" x:Name="logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                    <ImageButton x:Name="btnBenjamin"  Grid.Row="1" Grid.Column="0" Clicked="btnBenjamin_Clicked"/>
+                    <ImageButton x:Name="btnCincoPassos" Grid.Row="1" Grid.Column="1" Clicked="btnCincoPassos_Clicked"/>
+                    <ImageButton x:Name="btnEuEra"  Grid.Row="2" Grid.Column="0" Clicked="btnEuEra_Clicked"/>
+                    <ImageButton x:Name="btnExtraordinario"  Grid.Row="2" Grid.Column="1" Clicked="btnExtraordinario_Clicked"/>
+                    <ImageButton x:Name="btnLadoBom"  Grid.Row="3" Grid.Column="0" Clicked="btnLadoBom_Clicked"/>
+                    <ImageButton x:Name="btnTeoria" Grid.Row="3" Grid.Column="1" Clicked="btnTeoria_Clicked"/>
+                    <ImageButton x:Name="btnSeuNome"  Grid.Row="4" Grid.Column="0" Clicked="btnSeuNome_Clicked"/>
+                    
+                </Grid>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

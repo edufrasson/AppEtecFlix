@@ -33,12 +33,75 @@
     <None Remove="Img\Filmes_Aventura\projeto_adam.jpg" />
     <None Remove="Img\Filmes_Aventura\uncharted.jpg" />
     <None Remove="Img\Filmes_Aventura\viuva_negra.jpg" />
+    <None Remove="Img\Filmes_Biografia\bohemian.jpg" />
+    <None Remove="Img\Filmes_Biografia\imitacao.jpg" />
+    <None Remove="Img\Filmes_Biografia\jobs.jpg" />
+    <None Remove="Img\Filmes_Biografia\mente.jpg" />
+    <None Remove="Img\Filmes_Biografia\rede.jpg" />
+    <None Remove="Img\Filmes_Biografia\wallstreet.jpg" />
+    <None Remove="Img\Filmes_Comedia\click.jpg" />
+    <None Remove="Img\Filmes_Comedia\esposa.jpg" />
+    <None Remove="Img\Filmes_Comedia\gemea.jpg" />
+    <None Remove="Img\Filmes_Comedia\gente_grande.jpg" />
+    <None Remove="Img\Filmes_Comedia\gente_grande_2.jpg" />
+    <None Remove="Img\Filmes_Comedia\heranca.jpg" />
+    <None Remove="Img\Filmes_Comedia\juntos.jpg" />
+    <None Remove="Img\Filmes_Comedia\seguranca.jpg" />
+    <None Remove="Img\Filmes_Comedia\trocando.jpg" />
+    <None Remove="Img\Filmes_Drama\creed.jpg" />
+    <None Remove="Img\Filmes_Drama\creed2.jpg" />
+    <None Remove="Img\Filmes_Drama\rocky1.jpg" />
+    <None Remove="Img\Filmes_Drama\rocky2.jpg" />
+    <None Remove="Img\Filmes_Drama\rocky3.jpg" />
+    <None Remove="Img\Filmes_Drama\rocky4.jpg" />
+    <None Remove="Img\Filmes_Drama\rocky5.jpg" />
+    <None Remove="Img\Filmes_Drama\rocky6.jpg" />
+    <None Remove="Img\Filmes_Romance\benjamin.jpg" />
+    <None Remove="Img\Filmes_Romance\cinco_passos.jpg" />
+    <None Remove="Img\Filmes_Romance\eu_era.jpg" />
+    <None Remove="Img\Filmes_Romance\extraordinario.png" />
+    <None Remove="Img\Filmes_Romance\lado_bom.jpg" />
+    <None Remove="Img\Filmes_Romance\seu_nome.jpg" />
+    <None Remove="Img\Filmes_Romance\teoria.jpg" />
+    <None Remove="Img\Filmes_Scifi\2067 .jpg" />
+    <None Remove="Img\Filmes_Scifi\2067.jpg" />
+    <None Remove="Img\Filmes_Scifi\ameaca_fantasma.jpg" />
+    <None Remove="Img\Filmes_Scifi\ataque_clones.jpg" />
+    <None Remove="Img\Filmes_Scifi\despertar_forca.jpg" />
+    <None Remove="Img\Filmes_Scifi\imperio_contra.jpg" />
+    <None Remove="Img\Filmes_Scifi\interstelar.jpg" />
+    <None Remove="Img\Filmes_Scifi\john_carter.jpg" />
+    <None Remove="Img\Filmes_Scifi\nova_esperanca.jpg" />
+    <None Remove="Img\Filmes_Scifi\retorno_jedi.jpg" />
+    <None Remove="Img\Filmes_Scifi\vinganca.jpg" />
+    <None Remove="Img\Filmes_Terror\freira.jpg" />
+    <None Remove="Img\Filmes_Terror\it.jpg" />
+    <None Remove="Img\Filmes_Terror\it2.jpg" />
+    <None Remove="Img\Filmes_Terror\mal1.jpg" />
+    <None Remove="Img\Filmes_Terror\mal2.jpg" />
+    <None Remove="Img\Filmes_Terror\mal3.jpg" />
+    <None Remove="Img\Filmes_Terror\panico.jpg" />
     <None Remove="Img\logo_acao.png" />
     <None Remove="Img\logo_aventura.png" />
     <None Remove="Img\logo_biografia.png" />
     <None Remove="Img\logo_comedia.png" />
+    <None Remove="Img\logo_drama.png" />
     <None Remove="Img\logo_etecflix.png" />
+    <None Remove="Img\logo_romance.png" />
+    <None Remove="Img\logo_scifi.png" />
+    <None Remove="Img\logo_terror.png" />
     <None Remove="Posters\batman.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="Img\Filmes_Scifi\2067.jpg" />
+    <ApplicationDefinition Include="Img\Filmes_Scifi\nova_esperanca.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Img\Filmes_Biografia\wallstreet.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
@@ -90,6 +153,135 @@
     <EmbeddedResource Include="Img\Filmes_Aventura\viuva_negra.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Biografia\bohemian.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Biografia\imitacao.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Biografia\jobs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Biografia\mente.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Biografia\rede.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\click.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\esposa.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\gemea.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\gente_grande.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\gente_grande_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\heranca.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\juntos.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\seguranca.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Comedia\trocando.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Drama\creed.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Drama\creed2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Drama\rocky1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Drama\rocky2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Drama\rocky3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Drama\rocky4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Drama\rocky5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Drama\rocky6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Romance\benjamin.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Romance\cinco_passos.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Romance\eu_era.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Romance\extraordinario.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Romance\lado_bom.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Romance\seu_nome.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Romance\teoria.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Scifi\ameaca_fantasma.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Scifi\ataque_clones.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Scifi\despertar_forca.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Scifi\imperio_contra.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Scifi\interstelar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Scifi\nova_esperanca.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Scifi\retorno_jedi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Terror\freira.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Terror\it.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Terror\it2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Terror\mal1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Terror\mal2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Terror\mal3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Filmes_Terror\panico.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Img\logo_acao.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -102,7 +294,19 @@
     <EmbeddedResource Include="Img\logo_comedia.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_drama.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Img\logo_etecflix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_romance.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_scifi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\logo_terror.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Posters\batman.png">

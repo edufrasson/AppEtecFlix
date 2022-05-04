@@ -3,10 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Categorias.Comedia">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#0f0e17">
+
+            <ScrollView>
+                <Grid RowDefinitions="100, 300, 300, 300, 300, 300"
+                      ColumnDefinitions="*, *"
+                      Padding="5"
+                 >
+                    <Image HorizontalOptions="Center" x:Name="logo" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                    <ImageButton x:Name="btnGente"  Grid.Row="1" Grid.Column="0" Clicked="btnGente_Clicked"/>
+                    <ImageButton x:Name="btnEsposa" Grid.Row="1" Grid.Column="1" Clicked="btnEsposa_Clicked"/>
+                    <ImageButton x:Name="btnJuntos"  Grid.Row="2" Grid.Column="0" Clicked="btnJuntos_Clicked"/>
+                    <ImageButton x:Name="btnGente2"  Grid.Row="2" Grid.Column="1" Clicked="btnGente2_Clicked"/>
+                    <ImageButton x:Name="btnClick"  Grid.Row="3" Grid.Column="0" Clicked="btnClick_Clicked"/>
+                    <ImageButton x:Name="btnGemea" Grid.Row="3" Grid.Column="1" Clicked="btnGemea_Clicked"/>
+                    <ImageButton x:Name="btnTrocando"  Grid.Row="4" Grid.Column="0" Clicked="btnTrocando_Clicked"/>
+                    <ImageButton x:Name="btnHeranca"  Grid.Row="4" Grid.Column="1" Clicked="btnHeranca_Clicked"/>
+                </Grid>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
