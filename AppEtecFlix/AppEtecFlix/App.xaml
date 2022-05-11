@@ -17,7 +17,7 @@
             <Style x:Name="labelTitulo" TargetType="Label">
                 <Setter Property="FontSize" Value="50"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
-            </Style>
+            </Style>            
 
         </ResourceDictionary>
     </Application.Resources>

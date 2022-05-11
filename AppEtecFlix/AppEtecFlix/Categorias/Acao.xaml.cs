@@ -37,37 +37,86 @@ namespace AppEtecFlix.Categorias
 
         private void btnAnonimo_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Acao.Anonimo());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnMateMorra_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Acao.MateMorra());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnBloodshot_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Acao.Bloodshot());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnResidentEvil_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Acao.ResidentEvil());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnBlackout_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Acao.Blackout());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnMatrix_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Acao.Matrix());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnDjango_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Acao.Django());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
     }
 }

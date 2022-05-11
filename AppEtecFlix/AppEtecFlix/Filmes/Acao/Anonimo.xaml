@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEtecFlix.Filmes.Acao.Anonimo">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="#0f0e17">
+         
+            <Grid 
+                RowDefinitions="300, 300, *, *"
+                ColumnDefinitions="*, *"
+                >
+                <WebView                    
+                    x:Name="trailer"
+                    VerticalOptions="FillAndExpand"
+                    Source="https://www.youtube.com/embed/5suJxv2YcL4"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                />
+                <Image x:Name="img_filme"
+                    Grid.Row="1"    
+                    Grid.RowSpan="4"
+                    Aspect="AspectFill"                    
+                    Grid.Column="0"  
+                       />
+                <StackLayout
+                    Grid.Row="1"
+                    Grid.Column="1">
+
+                    <Label Text="Título" 
+                       FontSize="18"
+                       TextColor="#ff8906"
+                       HorizontalTextAlignment="Start"
+                       />
+                    <Label Text="Anônimo" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="Data de Lançamento" 
+                       FontSize="18"
+                       TextColor="#ff8906"                       
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="13 de maio de 2021" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="Direção" 
+                       FontSize="18"
+                       TextColor="#ff8906"
+                       HorizontalTextAlignment="Start"    
+                       />
+
+                    <Label Text="Ilya Naishuller" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+
+                    <StackLayout Grid.Column="0" Grid.Row="3">
+                        <Label Text="Sinopse" 
+                                 FontSize="18"
+                                 TextColor="#ff8906"                       
+                                HorizontalTextAlignment="Start"    
+                       />
+
+                        <Label Text="Mansell é um pacato pai e marido que sempre arca com as injustiças da vida, sem revidar. " 
+                                 FontSize="18"                       
+                                 TextColor="White"
+                                 HorizontalTextAlignment="Start"
+                       />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

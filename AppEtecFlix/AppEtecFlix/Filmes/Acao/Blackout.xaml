@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEtecFlix.Filmes.Acao.Blackout">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="#0f0e17">
+
+            <Grid 
+                RowDefinitions="300, 300, *, *"
+                ColumnDefinitions="*, *"
+                >
+                <WebView                    
+                    x:Name="trailer"
+                    VerticalOptions="FillAndExpand"
+                    Source="https://www.youtube.com/embed/GHREbINvVXk"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                />
+                <Image x:Name="img_filme"
+                    Grid.Row="1"    
+                    Grid.RowSpan="4"
+                    Aspect="AspectFill"                    
+                    Grid.Column="0"  
+                       />
+                <StackLayout
+                    Grid.Row="1"
+                    Grid.Column="1">
+
+                    <Label Text="Título" 
+                       FontSize="18"
+                       TextColor="#ff8906"
+                       HorizontalTextAlignment="Start"
+                       />
+                    <Label Text="Blackout" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="Data de Lançamento" 
+                       FontSize="18"
+                       TextColor="#ff8906"                       
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="21 de novembro de 2019" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="Direção" 
+                       FontSize="18"
+                       TextColor="#ff8906"
+                       HorizontalTextAlignment="Start"    
+                       />
+
+                    <Label Text="Egor Baranov" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+
+                    <StackLayout Grid.Column="0" Grid.Row="3">
+                        <Label Text="Sinopse" 
+                                 FontSize="18"
+                                 TextColor="#ff8906"                       
+                                HorizontalTextAlignment="Start"    
+                       />
+
+                        <Label Text="O contato entre as cidades da Terra se perde e apenas uma pequena área cercada no leste europeu ainda tem eletricidade. Em uma ronda, os soldados da patrulha encontram corpos na área externa das cercas." 
+                                 FontSize="18"                       
+                                 TextColor="White"
+                                 HorizontalTextAlignment="Start"
+                       />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
