@@ -15,6 +15,8 @@ namespace AppEtecFlix.Filmes.Acao
         public Matrix()
         {
             InitializeComponent();
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Acao.matrix.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

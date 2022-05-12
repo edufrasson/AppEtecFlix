@@ -14,7 +14,9 @@ namespace AppEtecFlix.Filmes.Acao
     {
         public MateMorra()
         {
-            InitializeComponent();
+            InitializeComponent();            
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Acao.mate_morra.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

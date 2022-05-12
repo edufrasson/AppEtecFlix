@@ -14,7 +14,9 @@ namespace AppEtecFlix.Filmes.Acao
     {
         public Infiltrado()
         {
-            InitializeComponent();
+            InitializeComponent();            
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Acao.infiltrado.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

@@ -32,7 +32,14 @@ namespace AppEtecFlix.Categorias
 
         private void btnInfiltrado_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Acao.Infiltrado());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnAnonimo_Clicked(object sender, EventArgs e)
