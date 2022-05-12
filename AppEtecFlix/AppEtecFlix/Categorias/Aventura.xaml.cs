@@ -69,7 +69,7 @@ namespace AppEtecFlix.Categorias
         {
             try
             {
-                Navigation.PushAsync(new Filmes.Aventura.Uncharted());
+                Navigation.PushAsync(new Filmes.Aventura.Projeto_Adam());
             }
             catch (Exception ex)
             {
