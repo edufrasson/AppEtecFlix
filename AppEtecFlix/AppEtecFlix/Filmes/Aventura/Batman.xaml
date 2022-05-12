@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppEtecFlix.Filmes.Acao.Matrix">
+             x:Class="AppEtecFlix.Filmes.Aventura.Batman">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" BackgroundColor="#0f0e17">
 
@@ -12,7 +12,7 @@
                 <WebView                    
                     x:Name="trailer"
                     VerticalOptions="FillAndExpand"
-                    Source="https://www.youtube.com/embed/aHmDi6CUQ3M"
+                    Source="https://www.youtube.com/embed/rsQEor4y2hg"
                     Grid.Row="0"
                     Grid.Column="0"
                     Grid.ColumnSpan="2"
@@ -32,7 +32,7 @@
                        TextColor="#ff8906"
                        HorizontalTextAlignment="Start"
                        />
-                    <Label Text="Matrix" 
+                    <Label Text="The Batman" 
                        FontSize="18"                       
                        TextColor="White"
                        HorizontalTextAlignment="Start"
@@ -44,7 +44,7 @@
                        HorizontalTextAlignment="Start"
                        />
 
-                    <Label Text="22 de dezembro de 2021" 
+                    <Label Text="3 de março de 2022" 
                        FontSize="18"                       
                        TextColor="White"
                        HorizontalTextAlignment="Start"
@@ -56,7 +56,7 @@
                        HorizontalTextAlignment="Start"    
                        />
 
-                    <Label Text="Lana Wachowski" 
+                    <Label Text="Matt Reeves" 
                        FontSize="18"                       
                        TextColor="White"
                        HorizontalTextAlignment="Start"
@@ -70,7 +70,7 @@
                                 HorizontalTextAlignment="Start"    
                        />
 
-                        <Label Text="O novo filme reúne os protagonistas originais Keanu Reeves e Carrie-Anne Moss nos icónicos personagens que os tornaram famosos, Neo e Trinity. " 
+                        <Label Text="Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população. " 
                                  FontSize="18"                       
                                  TextColor="White"
                                  HorizontalTextAlignment="Start"

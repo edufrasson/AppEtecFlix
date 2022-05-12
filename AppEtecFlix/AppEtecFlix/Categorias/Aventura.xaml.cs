@@ -31,22 +31,50 @@ namespace AppEtecFlix.Categorias
 
         private void btnUncharted_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Aventura.Uncharted());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnMoonfall_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Aventura.Moonfall());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnBatman_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Aventura.Batman());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnProjetoAdam_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Aventura.Uncharted());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnFreeGuy_Clicked(object sender, EventArgs e)
