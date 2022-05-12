@@ -15,6 +15,8 @@ namespace AppEtecFlix.Filmes.Aventura
         public Projeto_Adam()
         {
             InitializeComponent();
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Aventura.projeto_adam.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

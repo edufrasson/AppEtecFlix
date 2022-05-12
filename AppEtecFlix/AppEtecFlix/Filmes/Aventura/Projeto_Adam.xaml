@@ -3,10 +3,82 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Filmes.Aventura.Projeto_Adam">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical" BackgroundColor="#0f0e17">
+
+            <Grid 
+                RowDefinitions="300, 300, *, *"
+                ColumnDefinitions="*, *"
+                >
+                <WebView                    
+                    x:Name="trailer"
+                    VerticalOptions="FillAndExpand"
+                    Source="https://www.youtube.com/embed/miycJHABS1w"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                />
+                <Image x:Name="img_filme"
+                    Grid.Row="1"    
+                    Grid.RowSpan="4"
+                    Aspect="AspectFill"                    
+                    Grid.Column="0"  
+                       />
+                <StackLayout
+                    Grid.Row="1"
+                    Grid.Column="1">
+
+                    <Label Text="Título" 
+                       FontSize="18"
+                       TextColor="#ff8906"
+                       HorizontalTextAlignment="Start"
+                       />
+                    <Label Text="Projeto Adam" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="Data de Lançamento" 
+                       FontSize="18"
+                       TextColor="#ff8906"                       
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="9 de março de 2022" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="Direção" 
+                       FontSize="18"
+                       TextColor="#ff8906"
+                       HorizontalTextAlignment="Start"    
+                       />
+
+                    <Label Text="Shawn Levy" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+
+                    <StackLayout Grid.Column="0" Grid.Row="3">
+                        <Label Text="Sinopse" 
+                                 FontSize="18"
+                                 TextColor="#ff8906"                       
+                                HorizontalTextAlignment="Start"    
+                       />
+
+                        <Label Text="Um viajante do tempo volta ao ano de 2022 por acidente e acaba se encontrando com seu eu mais novo. Juntos, e sendo caçados por forças do futuro, os dois embarcam em uma missão para consertar a linha temporal e salvar seus entes queridos. " 
+                                 FontSize="18"                       
+                                 TextColor="White"
+                                 HorizontalTextAlignment="Start"
+                       />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

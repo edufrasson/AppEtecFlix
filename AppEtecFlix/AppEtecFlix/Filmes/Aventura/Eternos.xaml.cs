@@ -15,6 +15,8 @@ namespace AppEtecFlix.Filmes.Aventura
         public Eternos()
         {
             InitializeComponent();
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Aventura.eternos.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

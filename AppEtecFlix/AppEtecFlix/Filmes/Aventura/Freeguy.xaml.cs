@@ -15,6 +15,8 @@ namespace AppEtecFlix.Filmes.Aventura
         public Freeguy()
         {
             InitializeComponent();
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Aventura.freeguy.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

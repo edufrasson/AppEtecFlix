@@ -15,6 +15,8 @@ namespace AppEtecFlix.Filmes.Aventura
         public Viuva_Negra()
         {
             InitializeComponent();
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Aventura.viuva_negra.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

@@ -79,22 +79,50 @@ namespace AppEtecFlix.Categorias
 
         private void btnFreeGuy_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Aventura.Freeguy());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnEternos_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Aventura.Eternos());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnViuvaNegra_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Aventura.Viuva_Negra());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void btnDuna_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.Aventura.Duna());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
     }
 }

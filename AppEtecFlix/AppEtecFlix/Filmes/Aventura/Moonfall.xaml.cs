@@ -15,6 +15,8 @@ namespace AppEtecFlix.Filmes.Aventura
         public Moonfall()
         {
             InitializeComponent();
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Aventura.moonfall.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

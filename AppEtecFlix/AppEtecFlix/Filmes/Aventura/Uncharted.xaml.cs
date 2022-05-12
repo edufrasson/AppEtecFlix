@@ -15,6 +15,8 @@ namespace AppEtecFlix.Filmes.Aventura
         public Uncharted()
         {
             InitializeComponent();
+            img_filme.Source = ImageSource.FromResource("AppEtecFlix.Img.Filmes_Aventura.uncharted.jpg");
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

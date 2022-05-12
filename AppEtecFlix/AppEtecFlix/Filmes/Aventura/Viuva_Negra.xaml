@@ -3,10 +3,82 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEtecFlix.Filmes.Aventura.Viuva_Negra">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical" BackgroundColor="#0f0e17">
+
+            <Grid 
+                RowDefinitions="300, 300, *, *"
+                ColumnDefinitions="*, *"
+                >
+                <WebView                    
+                    x:Name="trailer"
+                    VerticalOptions="FillAndExpand"
+                    Source="https://www.youtube.com/embed/uNAxHLp7wv8"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                />
+                <Image x:Name="img_filme"
+                    Grid.Row="1"    
+                    Grid.RowSpan="4"
+                    Aspect="AspectFill"                    
+                    Grid.Column="0"  
+                       />
+                <StackLayout
+                    Grid.Row="1"
+                    Grid.Column="1">
+
+                    <Label Text="Título" 
+                       FontSize="18"
+                       TextColor="#ff8906"
+                       HorizontalTextAlignment="Start"
+                       />
+                    <Label Text="Viúva Negra" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="Data de Lançamento" 
+                       FontSize="18"
+                       TextColor="#ff8906"                       
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="8 de julho de 2021" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+                    <Label Text="Direção" 
+                       FontSize="18"
+                       TextColor="#ff8906"
+                       HorizontalTextAlignment="Start"    
+                       />
+
+                    <Label Text="Cate Shortland" 
+                       FontSize="18"                       
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       />
+
+
+                    <StackLayout Grid.Column="0" Grid.Row="3">
+                        <Label Text="Sinopse" 
+                                 FontSize="18"
+                                 TextColor="#ff8906"                       
+                                HorizontalTextAlignment="Start"    
+                       />
+
+                        <Label Text="Ao nascer, a Viúva Negra, então conhecida como Natasha Romanova, é entregue à KGB, que a prepara para se tornar sua agente suprema. Porém, o seu próprio governo tenta matá-la quando a União Soviética se desfaz. " 
+                                 FontSize="18"                       
+                                 TextColor="White"
+                                 HorizontalTextAlignment="Start"
+                       />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
